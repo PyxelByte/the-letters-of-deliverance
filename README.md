@@ -18,3 +18,5 @@ And yet tonight I reap his soul
 
 ## Screenshots
 
+![Title](/Screenshots/Title.png)
+![Gameplay](/Screenshots/Level.png)
