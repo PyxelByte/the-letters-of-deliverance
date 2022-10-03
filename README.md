@@ -1,6 +1,6 @@
 # The Letters of Deliverance
 
-This is the source code for our Ludum Dare 51 game, [The Letters of Deliverance](https://).
+This is the source code for our Ludum Dare 51 game, [The Letters of Deliverance](https://ldj.am/$300764).
 
 ## Description
 
