@@ -47,5 +47,5 @@ public class Swing : MonoBehaviour
                 Destroy(target[i].gameObject);
             }
         }
-    }
+     }
 }

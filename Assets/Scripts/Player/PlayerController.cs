@@ -64,17 +64,17 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name == "Scythe") {
-            //Do nothing
-        }
-        else {
-            if (collision.name == "Enemy 1" || collision.name == "EnemyBullet") {
-                SceneManager.LoadScene(1);
-            }
-            else if (collision.name == "Gun") {
+        if (collision.name == "Gun") 
+        {
                 armed = true;
                 Destroy(GameObject.Find("Gun"));
-            }
+        }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.name == "EnemyBullet")
+        {
+            SceneManager.LoadScene(1);
         }
     }
 }

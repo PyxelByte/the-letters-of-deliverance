@@ -161,6 +161,7 @@ GameObject:
   - component: {fileID: 5555427440178260562}
   - component: {fileID: 2297102368963764753}
   - component: {fileID: 5591217260497185559}
+  - component: {fileID: 6358871434924802055}
   m_Layer: 3
   m_Name: Enemy Physics
   m_TagString: Untagged
@@ -294,3 +295,24 @@ MonoBehaviour:
   bullet: {fileID: 7617972914922606496, guid: f100896be6977964aa7f79f78e9c02b2, type: 3}
   player: {fileID: 346619427473130122, guid: 7771a17b2be46f944a7bbb812679d6cd, type: 3}
   timeBtwShots: 1
+--- !u!50 &6358871434924802055
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7737045158221782717}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 5
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
